@@ -26,3 +26,5 @@ iso.3.6.1.2.1.31.1.1.1.1.15 = STRING: "Vlanif600"
 iso.3.6.1.2.1.31.1.1.1.1.18 = STRING: "Eth-Trunk10"
 iso.3.6.1.2.1.31.1.1.1.1.19 = STRING: "Eth-Trunk11"
 ```
+
+[查看Golang代码](golang.md)
