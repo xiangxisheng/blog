@@ -1,5 +1,6 @@
 # PVE附加VHDX到虚拟机
 
+## 一、附加VHDX
 第1步：打开nbd功能
 ```
 modprobe nbd max_part=4
@@ -15,7 +16,7 @@ qemu-nbd -c /dev/nbd0 <VHDX文件路径>
 qm set <虚拟机编号> -scsi1 /dev/nbd0
 ```
 
-#取消附加
+# 二、取消附加
 
 第1步：在控制台中分离scsi
 
